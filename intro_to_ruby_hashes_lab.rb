@@ -17,6 +17,7 @@ end
 def my_hash_creator(key, value)
   hash = {}
   hash[key] = value
+  puts hash
 end
 
 def read_from_hash(hash, key)
